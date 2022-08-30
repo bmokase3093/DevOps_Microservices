@@ -1,5 +1,5 @@
 juypter:
-	@cd notebooks; PYTHONPATH=".." jupyter notebook api.ipynb
+	@cd notebooks: PYTHONPATH=".." jupyter notebook api.ipynb
 
 setup:
 	python3 -m venv ~/.pia-aws
